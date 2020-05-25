@@ -4,7 +4,7 @@ A Natural Language Processing model implemented in NLTK that can extract key wor
 Data from: https://www.kaggle.com/residentmario/exploring-monster-com-job-postings
 
 ## Summary of Model
-This NLP model uses a technique called TL/IDF or 'term frequency - inverse document frequency'. In summary, we compute how common a word is across a large dataset (in this case, 20,000+ job postings on monster.com) and in one specific document. If we find a word that is a lot more common in our document than on average, then we expect that word to be a keyword.
+This NLP model uses a technique called TF/IDF or 'term frequency - inverse document frequency'. In summary, we compute how common a word is across a large dataset (in this case, 20,000+ job postings on monster.com) and in one specific document. If we find a word that is a lot more common in our document than on average, then we expect that word to be a keyword.
 
 ### Example
 Below is a Yelp software engineer job posting found on Indeed.ca:
